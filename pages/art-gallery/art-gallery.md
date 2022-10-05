@@ -2,7 +2,7 @@
 layout: default
 title: Art Gallery
 nav_order: 3
-has_children: true
+has_children: false
 permalink: /pages/art-gallery
 ---
 
@@ -15,23 +15,23 @@ permalink: /pages/art-gallery
 
 # 2D Art
 
-![Created for Taleworld's Mount & Blade Bannerlord Creative Contest](https://tolin-simpson-portfolio.github.io/assets/images/Bannerlord_2DCreative_Competition_Animated_Entry_TolinSimpson.gif)
-![](https://tolin-simpson-portfolio.github.io/assets/images/tolin-simpson-portfolio-horn.jpg)
+![Created for Taleworld's Mount & Blade Bannerlord Creative Contest](https://TolinSimpson.github.io.github.io/assets/images/Bannerlord_2DCreative_Competition_Animated_Entry_TolinSimpson.gif)
+![](https://TolinSimpson.github.io/assets/images/tolin-simpson-portfolio-horn.jpg)
 
 # 3D Environment Art (Low Poly)
 
-![](https://tolin-simpson-portfolio.github.io/assets/images/Tolin_Simpson_EnvironmentArt_Portfolio_02.jpg)
-![](https://tolin-simpson-portfolio.github.io/assets/images/Tolin_Simpson_EnvironmentArt_Portfolio_03.jpg)
-![](https://tolin-simpson-portfolio.github.io/assets/images/Tolin_Simpson_EnvironmentArt_Portfolio_04.jpg)
-![](https://tolin-simpson-portfolio.github.io/assets/images/Tolin_Simpson_EnvironmentArt_Portfolio_05.jpg)
+![](https://TolinSimpson.github.io.github.io/assets/images/Tolin_Simpson_EnvironmentArt_Portfolio_02.jpg)
+![](https://TolinSimpson.github.io.github.io/assets/images/Tolin_Simpson_EnvironmentArt_Portfolio_03.jpg)
+![](https://TolinSimpson.github.io.github.io/assets/images/Tolin_Simpson_EnvironmentArt_Portfolio_04.jpg)
+![](https://TolinSimpson.github.io.github.io/assets/images/Tolin_Simpson_EnvironmentArt_Portfolio_05.jpg)
 
 
 # 3D Printables
 
-![](https://tolin-simpson-portfolio.github.io/assets/images/tolin-simpson-portfolio-mandalorians-printable.jpg)
-![](https://tolin-simpson-portfolio.github.io/assets/images/tolin-simpson-portfolio-chicken-rider-printable.jpg)
-![](https://tolin-simpson-portfolio.github.io/assets/images/tolin-simpson-portfolio-shields-printable.jpg)
-![](https://tolin-simpson-portfolio.github.io/assets/images/tolin-simpson-portfolio-super-baby-printable.jpg)
-![](https://tolin-simpson-portfolio.github.io/assets/images/tolin-simpson-portfolio-heads-printable.jpg)
-![](https://tolin-simpson-portfolio.github.io/assets/images/tolin-simpson-portfolio-greebles-printed.jpg)
-![](https://tolin-simpson-portfolio.github.io/assets/images/tolin-simpson-portfolio-cannons-printable.jpg)
+![](https://TolinSimpson.github.io.github.io/assets/images/tolin-simpson-portfolio-mandalorians-printable.jpg)
+![](https://TolinSimpson.github.io.github.io/assets/images/tolin-simpson-portfolio-chicken-rider-printable.jpg)
+![](https://TolinSimpson.github.io.github.io/assets/images/tolin-simpson-portfolio-shields-printable.jpg)
+![](https://TolinSimpson.github.io.github.io/assets/images/tolin-simpson-portfolio-super-baby-printable.jpg)
+![](https://TolinSimpson.github.io.github.io/assets/images/tolin-simpson-portfolio-heads-printable.jpg)
+![](https://TolinSimpson.github.io.github.io/assets/images/tolin-simpson-portfolio-greebles-printed.jpg)
+![](https://TolinSimpson.github.io.github.io/assets/images/tolin-simpson-portfolio-cannons-printable.jpg)
