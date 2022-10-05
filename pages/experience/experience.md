@@ -32,9 +32,6 @@ Below is a list of project I did programming for, these are some highlights and 
 ### Perspective Base Shifting Sands:
 A multiplayer FPS with instanced base building accross moving continents made of sand. Made it to steam greenlight but was canceled.
 
-### CW:BS:
-A short experimentation into battle simulator games in Unity.
-
 ## Paradox Solutions Softworks:
 
 ### Fire Spread:
@@ -85,7 +82,11 @@ Freelance client project for a WebGL kids game.
 
 [Play Now](https://play.unity.com/mg/other/webgl-builds-252794){: .btn }
 
+### Pixel Graphics Toolkit:
 
+<iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=wWMcH4FSE44">
+</iframe>
 
 ## Other projects:
 
