@@ -2,6 +2,8 @@ remote_theme: TolinSimpson/just-the-docs
 
 search_enabled: false
 
+logo: "/assets/images/tolin-simpson-headshot.jpg"
+
 title: Portfolio
 
 # Color scheme supports "light" (default) and "dark"
