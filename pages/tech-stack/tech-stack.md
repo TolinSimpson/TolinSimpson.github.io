@@ -6,26 +6,6 @@ has_children: false
 permalink: /pages/tech-stack
 ---
 
-# My Tech Stack:
-<br>
-<a href="https://unity.com/">
-  <img align="center" src="https://user-images.githubusercontent.com/20493432/189245631-8783cf07-dc01-47a6-9b40-7a4da8f0963b.png" width="32px" />
-</a>
-<a href="">
-  <img align="center" src="https://user-images.githubusercontent.com/20493432/189244889-4a16c15f-28fa-44cf-ad0a-47163919b1ea.png" width="32px" />
-</a>
-<a href="https://www.blender.org/">
-  <img align="center" src="https://www.blender.org/wp-content/uploads/2020/07/blender_logo-1280x391.png" width="96px", height="32px" />
-</a>
-<a href="">
-  <img align="center" src="https://user-images.githubusercontent.com/20493432/189245581-a84b0190-cdbe-4042-ba01-1d17f57a0b68.png" width="32px" />
-</a>
-<a href="">
-  <img align="center" src="https://user-images.githubusercontent.com/20493432/189245473-d8ba58a7-29c7-4b2b-badb-fdc1b8c9a135.png" width="32px" />
-</a>
-<br>
-<br>
-
 # PC Specs:
 
 | CPU                                             | GPU                     | RAM  |
