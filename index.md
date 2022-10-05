@@ -37,6 +37,10 @@ src="https://www.youtube.com/embed/09Wu0h7ucr8">
 src="https://www.youtube.com/embed/wWMcH4FSE44">
 </iframe>
 
-<!--
-[![Youtube](https://img.youtube.com/vi/09Wu0h7ucr8/0.jpg)](https://www.youtube.com/watch?v=09Wu0h7ucr8)
--->
+# Project Examples:
+
+[Kitbashery Alpha Build](https://github.com/TolinSimpson/Kitbashery-deprecated-/releases/download/v.1.0.7b/Kitbashery_107b_Windows_x86_64_Installer.exe){: .btn }
+[Game Kit on GitHub](https://github.com/Kitbashery/Game-Kit){: .btn }
+[Modular AI on GitHub](https://github.com/Kitbashery/Modular-AI){: .btn }
+[Tween Components on GitHub](https://github.com/Kitbashery/Tween-Components){: .btn }
+[Katie Bunny Dress Up Web Game](https://play.unity.com/mg/other/webgl-builds-252794){: .btn }
