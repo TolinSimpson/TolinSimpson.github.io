@@ -59,7 +59,9 @@ An android app for exploring cyptocurrency websites with affilliate marketing de
 <details>
 <summary>Perma-Promoters</summary>
 <pre>
+<p>
 Perma-Promoters was a marketing firm in the regenerative agriculture/permaculture niche. I was responsible for managing SEO & creating graphics and animations for clients.
+</p>
 </pre>
 </details>
 
@@ -67,29 +69,19 @@ Perma-Promoters was a marketing firm in the regenerative agriculture/permacultur
 <summary>Kitbashery</summary>
 <pre>
 <b>Kitbashery (software)</b>
-An open-source 3D kitbashing & texturing tool. (Canceled)
-
-[Download Alpha Build](https://github.com/TolinSimpson/Kitbashery-deprecated-/releases/download/v.1.0.7b/Kitbashery_107b_Windows_x86_64_Installer.exe){: .btn }
+An open-source 3D kitbashing & texturing tool.
 
 <b>Game Kit:</b>
 An open-source collection of gameplay components for Unity.
 
-[View on GitHub](https://github.com/Kitbashery/Game-Kit){: .btn }
-
 <b>Modular AI 2:</b>
 An open-source reboot of Paradox Solution's Modular AI asset.
-
-[View on GitHub](https://github.com/Kitbashery/Modular-AI){: .btn }
 
 <b>Tween Components:</b>
 An open-source interpolation library for Unity.
 
-[View on GitHub](https://github.com/Kitbashery/Tween-Components){: .btn }
-
 <b>Katie Bunny Dress Up:</b>
 Freelance client project for a WebGL kids game.
-
-[Play Now](https://play.unity.com/mg/other/webgl-builds-252794){: .btn }
 
 <b>Pixel Graphics Toolkit:</b>
 
@@ -99,6 +91,11 @@ src="https://www.youtube.com/embed/wWMcH4FSE44">
 
 </pre>
 </details>
+[Kitbashery Alpha Build](https://github.com/TolinSimpson/Kitbashery-deprecated-/releases/download/v.1.0.7b/Kitbashery_107b_Windows_x86_64_Installer.exe){: .btn }
+[Game Kit on GitHub](https://github.com/Kitbashery/Game-Kit){: .btn }
+[Modular AI on GitHub](https://github.com/Kitbashery/Modular-AI){: .btn }
+[Tween Components on GitHub](https://github.com/Kitbashery/Tween-Components){: .btn }
+[Katie Bunny Dress Up Web Game](https://play.unity.com/mg/other/webgl-builds-252794){: .btn }
 
 ## Other projects:
 
