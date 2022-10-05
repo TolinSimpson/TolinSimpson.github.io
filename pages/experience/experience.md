@@ -27,66 +27,78 @@ permalink: /pages/experience
 # Project Overviews:
 Below is a list of project I did programming for, these are some highlights and do not include projects under NDA or freelance odd jobs.
 
-## Leatherbound Games:
-
-### Perspective Base Shifting Sands:
+<details>
+<summary>Leatherbound Games</summary>
+<pre>
+<b>Perspective Base Shifting Sands:</b>
 A multiplayer FPS with instanced base building accross moving continents made of sand. Made it to steam greenlight but was canceled.
+</pre>
+</details>
 
-## Paradox Solutions Softworks:
-
-### Fire Spread:
+<details>
+<summary>Paradox Solutions Softworks</summary>
+<pre>
+<b>Fire Spread:</b>
 A VFX solution for spreadable fires in Unity sold on the Unity Asset Store.
 
-### Modular AI:
+<b>Modular AI:</b>
 A Utility theory AI implementation for Untiy sold on the Unity Asset Store.
 
-### Runtime Tools for MCS:
+<b>Runtime Tools for MCS:</b>
 Tools for auto-generating UI for Morph3D's Morph character system for Untiy sold on the Unity Asset Store.
 
-### VisContract:
+<b>VisContract:</b>
 A visual scripting platform for Ethereum smart contracts.
 
-### Explore Cryptocurrency:
+<b>Explore Cryptocurrency:</b>
 An android app for exploring cyptocurrency websites with affilliate marketing deals.
 
-### Unamed PRB Painting tool:
-Development work was done on a PBR painting tool for Magic Leap, the project was canceled after failiure to secure funding.
+</pre>
+</details>
 
-## Perma-Promoters:
-Perma-Promoters was a marketing firm in the regenerative agriculture/permaculture niche.
+<details>
+<summary>Perma-Promoters</summary>
+<pre>
+Perma-Promoters was a marketing firm in the regenerative agriculture/permaculture niche. I was responsible for managing SEO & creating graphics and animations for clients.
+</pre>
+</details>
 
-## Kitbashery:
-
-### Kitbashery (software)
+<details>
+<summary>Kitbashery</summary>
+<pre>
+<b>Kitbashery (software)</b>
 An open-source 3D kitbashing & texturing tool. (Canceled)
 
 [Download Alpha Build](https://github.com/TolinSimpson/Kitbashery-deprecated-/releases/download/v.1.0.7b/Kitbashery_107b_Windows_x86_64_Installer.exe){: .btn }
 
-### Game Kit:
+<b>Game Kit:</b>
 An open-source collection of gameplay components for Unity.
 
 [View on GitHub](https://github.com/Kitbashery/Game-Kit){: .btn }
 
-### Modular AI 2:
+<b>Modular AI 2:</b>
 An open-source reboot of Paradox Solution's Modular AI asset.
 
 [View on GitHub](https://github.com/Kitbashery/Modular-AI){: .btn }
 
-### Tween Components:
+<b>Tween Components:</b>
 An open-source interpolation library for Unity.
 
 [View on GitHub](https://github.com/Kitbashery/Tween-Components){: .btn }
 
-### Katie Bunny Dress Up:
+<b>Katie Bunny Dress Up:</b>
 Freelance client project for a WebGL kids game.
 
 [Play Now](https://play.unity.com/mg/other/webgl-builds-252794){: .btn }
 
-### Pixel Graphics Toolkit:
+<b>Pixel Graphics Toolkit:</b>
 
 <iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=wWMcH4FSE44">
+src="https://www.youtube.com/embed/wWMcH4FSE44">
 </iframe>
+
+</pre>
+</details>
 
 ## Other projects:
 
