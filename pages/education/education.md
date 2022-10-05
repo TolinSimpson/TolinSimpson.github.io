@@ -20,15 +20,11 @@ permalink: /pages/education
 * Advanced Multimedia
 * Video Game Design
 
-<details>
-<summary>Acheviements</summary>
-<pre>
-- Honor Roll Student
-- Student of the Month (Career & Technical Education Month)
-- 2 Years FBLA (1 year acting president)
-- 1st Place FBLA Computer Simulation & Game Programming (Puget Sound Region)
-</pre>
-</details>
+Acheviements:
+* Honor Roll Student
+* Student of the Month (Career & Technical Education Month)
+* 2 Years FBLA (1 year acting president)
+* 1st Place FBLA Computer Simulation & Game Programming (Puget Sound Region)
 
 ## Other:
 
