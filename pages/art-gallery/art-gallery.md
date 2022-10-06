@@ -19,7 +19,7 @@ permalink: /pages/art-gallery
 
 ![](https://TolinSimpson.github.io/assets/images/tolin-simpson-portfolio-horn.jpg)
 
-# 3D Environment Art (Low Poly)
+# 3D Game Art (Low Poly)
 
 ![](https://TolinSimpson.github.io/assets/images/Tolin_Simpson_EnvironmentArt_Portfolio_02.jpg)
 
@@ -28,6 +28,8 @@ permalink: /pages/art-gallery
 ![](https://TolinSimpson.github.io/assets/images/Tolin_Simpson_EnvironmentArt_Portfolio_04.jpg)
 
 ![](https://TolinSimpson.github.io/assets/images/Tolin_Simpson_EnvironmentArt_Portfolio_05.jpg)
+
+![](https://TolinSimpson.github.io/assets/images/tolin-simpson-portfolio-revolver.png)
 
 
 # 3D Printables
