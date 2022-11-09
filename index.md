@@ -28,12 +28,12 @@ AI, Physics, Content Creation Tools, Procedural Generation
 # Project Videos:
 
 #### 2020 Project Reel:
-<iframe width="420" height="315"
+<iframe width="740" height="550"
 src="https://www.youtube.com/embed/09Wu0h7ucr8">
 </iframe>
 
 #### Pixel Graphics Toolkit:
-<iframe width="420" height="315"
+<iframe width="740" height="550"
 src="https://www.youtube.com/embed/wWMcH4FSE44">
 </iframe>
 
