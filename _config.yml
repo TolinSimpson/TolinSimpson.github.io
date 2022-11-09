@@ -18,9 +18,9 @@ nav_external_links:
   - title: GitHub Profile
     url: https://github.com/TolinSimpson
     hide_icon: false # set to true to hide the external link icon - defaults to false
-  - title: Unity Asset Store
-    url: https://assetstore.unity.com/publishers/72943
-    hide_icon: false
+  # - title: Unity Asset Store
+    # url: https://assetstore.unity.com/publishers/72943
+    # hide_icon: false
   - title: Unity Forums
     url: https://forum.unity.com/members/paradoxsolutions.896554/
     hide_icon: false
