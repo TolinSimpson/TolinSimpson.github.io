@@ -118,6 +118,30 @@
             text-decoration: underline;
         }
         
+        .print-button {
+            background: #2980b9;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .print-button:hover {
+            background: #1f5f8b;
+        }
+        
+        .print-button:active {
+            background: #154360;
+        }
+        
         h1 {
             font-size: 2.5em;
             color: #2c3e50;
@@ -289,6 +313,48 @@
                 padding: 5px 10px;
             }
         }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+                margin: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+                padding: 20px;
+            }
+            
+            .print-button {
+                display: none;
+            }
+            
+            .email-protected, .phone-protected {
+                color: #333 !important;
+                background: transparent !important;
+                padding: 0;
+                border-radius: 0;
+                cursor: default !important;
+            }
+            
+            .email-protected::before {
+                content: "tolin@gmail.com" !important;
+            }
+            
+            .phone-protected::before {
+                content: "+1 (360) 809-4591" !important;
+            }
+            
+            .github-link a {
+                color: #333 !important;
+            }
+            
+            .job-description strong {
+                color: #333 !important;
+            }
+        }
     </style>
 </head>
 <body>
@@ -313,6 +379,11 @@
                             <span class="contact-label">Phone:</span>
                             <span id="phone" class="phone-protected"></span>
                         </div>
+                        <div class="contact-item">
+                            <button class="print-button" onclick="window.print()">
+                                🖨️ Print Resume
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -333,7 +404,7 @@
                     <ul>
                         <li>Helped establish a <strong>508c1a non-profit organization</strong> structure and compliance</li>
                         <li>Traveled internationally providing <strong>permaculture consultation</strong> services</li>
-                        <li>Successfully fundraised attracting high-value donors</li>
+                        <li>Successfully fundraised attracting high-net-worth donors</li>
                         <li>Built and managed <strong>website and banking infrastructure</strong> for operations</li>
                     </ul>
                 </div>
@@ -481,7 +552,7 @@
                     <ul>
                         <li>Technology-focused curriculum: Computer Programming 1-2, <strong>AP Computer Programming</strong></li>
                         <li><strong>Multimedia</strong> 1-2, Advanced Multimedia, <strong>Video Game Design</strong></li>
-                        <li><strong>Honor Roll Student</strong>, <strong>FBLA Leadership</strong> (Acting President),
+                        <li><strong>Honor Roll</strong> Student, <strong>FBLA Leadership</strong> (Acting President),
                             <br> <strong>Puget Sound Regional Champion</strong> in Computer Simulation & Game Programming</li>
                     </ul>
                 </div>
