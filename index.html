@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tolin Simpson - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #fafafa;
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            margin-bottom: 40px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 20px;
+        }
+        
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            justify-content: center;
+        }
+        
+        .headshot {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #e0e0e0;
+        }
+        
+        .header-text {
+            text-align: left;
+        }
+        
+        .contact-links {
+            margin-top: 10px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .github-link a, .email-link {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .github-link a:hover {
+            text-decoration: underline;
+        }
+        
+        .email-protected {
+            cursor: pointer;
+            color: #fff;
+            background: #333;
+            padding: 2px 6px;
+            border-radius: 3px;
+            transition: all 0.3s ease;
+            font-size: 0.8em;
+        }
+        
+        .email-protected:hover {
+            color: #2980b9;
+            background: transparent;
+            text-decoration: underline;
+        }
+        
+        .phone-protected {
+            cursor: pointer;
+            color: #fff;
+            background: #333;
+            padding: 2px 6px;
+            border-radius: 3px;
+            transition: all 0.3s ease;
+            font-size: 0.8em;
+        }
+        
+        .phone-protected:hover {
+            color: #2980b9;
+            background: transparent;
+            text-decoration: underline;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .title {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+        
+        .contact {
+            color: #555;
+            font-size: 0.9em;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            border-bottom: 1px solid #ecf0f1;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            font-size: 1.4em;
+        }
+        
+        .job {
+            margin-bottom: 25px;
+        }
+        
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 8px;
+        }
+        
+        .job-title {
+            font-weight: bold;
+            color: #34495e;
+            font-size: 1.1em;
+        }
+        
+        .job-company {
+            color: #2980b9;
+            font-weight: 500;
+        }
+        
+        .job-date {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        .job-description {
+            margin-left: 20px;
+        }
+        
+        .job-description ul {
+            margin-top: 8px;
+        }
+        
+        .job-description li {
+            margin-bottom: 4px;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .skill {
+            background: #ecf0f1;
+            padding: 6px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            color: #2c3e50;
+        }
+        
+        .education {
+            margin-bottom: 15px;
+        }
+        
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+        
+        .education-title {
+            font-weight: bold;
+            color: #34495e;
+        }
+        
+        .education-school {
+            color: #2980b9;
+        }
+        
+        .education-date {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .profile {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .header-text {
+                text-align: center;
+            }
+            
+            .contact-links {
+                justify-content: center;
+            }
+            
+            .job-header, .education-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile">
+                <img src="assets/images/tolin-simpson-headshot.jpg" alt="Tolin Simpson" class="headshot">
+                <div class="header-text">
+                    <h1>Tolin Simpson</h1>
+                    <div class="title">Senior Unity Tools Engineer</div>
+                    <div class="contact">United States | English (Native)</div>
+                    <div class="contact-links">
+                        <div class="github-link">
+                            <a href="https://github.com/TolinSimpson" target="_blank">GitHub: @TolinSimpson</a>
+                        </div>
+                        <div class="email-link">
+                            Email: <span id="email" class="email-protected"></span>
+                        </div>
+                        <div class="phone-link">
+                            Phone: <span id="phone" class="phone-protected"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Professional Experience</h2>
+            
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Finance Officer</span> - 
+                        <span class="job-company">Christ the King Fellowship</span>
+                    </div>
+                    <div class="job-date">2025 - Present</div>
+                </div>
+                <div class="job-description">
+                    <ul>
+                        <li>Helped establish a 508c1a non-profit organization structure and compliance</li>
+                        <li>Traveled internationally providing permaculture consultation services</li>
+                        <li>Successfully fundraised attracting seven-figure donors</li>
+                        <li>Built and managed website and banking infrastructure for operations</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Senior Unity Developer</span> - 
+                        <span class="job-company">Kingdom Leasing LLC</span>
+                    </div>
+                    <div class="job-date">2025</div>
+                </div>
+                <div class="job-description">
+                    <ul>
+                        <li>Developed real-time audio/visual streaming in Unity to projectors via websocket</li>
+                        <li>Created command line tools and API for enhanced development workflow</li>
+                        <li>Integrated bleeding-edge multi-media generative AI workflows into Unity applications</li>
+                        <li>Created build automation tools for for Windows, Mac, Linux</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Engineering Lead</span> - 
+                        <span class="job-company">Pure Fun LLC</span>
+                    </div>
+                    <div class="job-date">2023 - 2024</div>
+                </div>
+                <div class="job-description">
+                    <ul>
+                        <li>Developed Android app in Unity with advanced 3D character system</li>
+                        <li>Created sophisticated UI for Tabletop RPG companion app</li>
+                        <li>Mentored 3D artists and provided technical guidance for art pipeline</li>
+                        <li>Consulted for the games industry on Unity development best practices</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Marketing Director</span> - 
+                        <span class="job-company">Perma-Promoters</span>
+                    </div>
+                    <div class="job-date">2020 - 2021</div>
+                </div>
+                <div class="job-description">
+                    <ul>
+                        <li>Led digital marketing initiatives for sustainable agriculture clients</li>
+                        <li>Developed SEO strategies and brand identity design</li>
+                        <li>Created animation and video production content</li>
+                        <li>Managed client relationships and project delivery</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Founder & Senior Engineer</span> - 
+                        <span class="job-company">Kitbashery</span>
+                    </div>
+                    <div class="job-date">2020 - 2024</div>
+                </div>
+                <div class="job-description">
+                    <ul>
+                        <li>Developed open-source 3D tools and Unity assets with real-time asset composition</li>
+                        <li>Created advanced PBR texturing workflows and 3D printable art</li>
+                        <li>Built comprehensive gameplay components library and utility-based AI systems</li>
+                        <li>Published Unity plugins and managed technical product development</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Unity Tools Engineer</span> - 
+                        <span class="job-company">Paradox Solutions</span>
+                    </div>
+                    <div class="job-date">2017 - 2019</div>
+                </div>
+                <div class="job-description">
+                    <ul>
+                        <li>Operated successful Unity Asset Store business</li>
+                        <li>Developed advanced fire simulation system and utility-based AI</li>
+                        <li>Built dynamic UI generation tools and visual scripting platform for Ethereum</li>
+                        <li>Created Android cryptocurrency exploration app</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Gameplay Programmer</span> - 
+                        <span class="job-company">Leatherbound Games</span>
+                    </div>
+                    <div class="job-date">2016 - 2017</div>
+                </div>
+                <div class="job-description">
+                    <ul>
+                        <li>Developed ambitious (unreleased) multiplayer FPS</li>
+                        <li>Implemented dynamic terrain systems and instanced base building</li>
+                        <li>Created real-time physics simulation systems</li>
+                        <li>Created media capsule for steam greenlight campaign</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <span class="job-title">Video Game Tester</span> - 
+                    <span class="job-company">The Fun Pimps LLC, Bungie, Gearbox Software</span>
+                </div>
+                <div class="job-date">2010, 2015, 2017</div>
+            </div>
+            <div class="job-description">
+                <ul>
+                    <li>Halo reach beta participant</li>
+                    <li>Modding feedback alpha tester for 7 Days to Die</li>
+                    <li>Closed Technical tester for unreleased Gearbox game</li>
+                    <li>Offered detailed bug reports and gameplay feedback</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            
+            <div class="education">
+                <div class="education-header">
+                    <div>
+                        <span class="education-title">High School Diploma</span> - 
+                        <span class="education-school">Sequim High School</span>
+                    </div>
+                    <div class="education-date">Class of 2017</div>
+                </div>
+                <div class="job-description">
+                    <ul>
+                        <li>Technology-focused curriculum: Computer Programming 1-2, AP Computer Programming</li>
+                        <li>Multimedia 1-2, Advanced Multimedia, Video Game Design</li>
+                        <li>Honor Roll Student, FBLA Leadership (Acting President),
+                            <br> Puget Sound Regional Champion in Computer Simulation & Game Programming</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="education">
+                <div class="education-header">
+                    <div>
+                        <span class="education-title">Edible Property Design Certification</span> - 
+                        <span class="education-school">ecosystemU</span>
+                    </div>
+                    <div class="education-date">2021</div>
+                </div>
+            </div>
+
+            <div class="education">
+                <div class="education-header">
+                    <div>
+                        <span class="education-title">AI Development Workshop</span> - 
+                        <span class="education-school">DigiPen Institute of Technology</span>
+                    </div>
+                    <div class="education-date">2015</div>
+                </div>
+            </div>
+
+            <div class="education">
+                <div class="education-header">
+                    <div>
+                        <span class="education-title">Microsoft Office Specialist Certification</span>
+                    </div>
+                    <div class="education-date">2014</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill">Unity Development</span>
+                <span class="skill">C#/.NET</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">HTML</span>
+                <span class="skill">WebGL</span>
+                <span class="skill">AI Systems</span>
+                <span class="skill">3D Art (Blender)</span>
+                <span class="skill">Physics Simulation</span>
+                <span class="skill">Game Development</span>
+                <span class="skill">Procedural Generation</span>
+                <span class="skill">Content Creation Tools</span>
+                <span class="skill">Technical Leadership</span>
+                <span class="skill">Permaculture Design</span>
+                <span class="skill">Video Editing</span>
+                <span class="skill">Unity for Film</span>
+                <span class="skill">Resin 3D Printing</span>
+                <span class="skill">Photoshop</span>
+                <span class="skill">Shader Graph</span>
+                <span class="skill">Business Consulting</span>
+                <span class="skill">Content Publishing</span>
+                <span class="skill">Desktop Platforms</span>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+     const _0x4af629=_0x42c1;function _0x42c1(_0x51b908,_0x463576){const _0x51c9b8=_0x51c9();return _0x42c1=function(_0x42c167,_0x5abd1f){_0x42c167=_0x42c167-0x112;let _0x5e3c08=_0x51c9b8[_0x42c167];return _0x5e3c08;},_0x42c1(_0x51b908,_0x463576);}function _0x51c9(){const _0x4c2f8c=['tel:','join','10607778okRkPU','60YIXwBy','Reveal','click','35799DcxeLp','location','textContent','3724390ygegph','href','.com','809','112yAAdvG','5003900zWfiYS','mouseenter','2446266bOkxTV','11689ThwVDB','getElementById','4657152VSSBRY','isme','4591','addEventListener','phone','7lUybiA','mailto:','360','email','tolin'];_0x51c9=function(){return _0x4c2f8c;};return _0x51c9();}(function(_0x62b420,_0x3cd484){const _0x4f82b6=_0x42c1,_0xeed115=_0x62b420();while(!![]){try{const _0x5bc5fa=-parseInt(_0x4f82b6(0x11e))/0x1*(parseInt(_0x4f82b6(0x11a))/0x2)+-parseInt(_0x4f82b6(0x113))/0x3*(-parseInt(_0x4f82b6(0x12d))/0x4)+-parseInt(_0x4f82b6(0x116))/0x5+-parseInt(_0x4f82b6(0x11d))/0x6*(parseInt(_0x4f82b6(0x125))/0x7)+parseInt(_0x4f82b6(0x120))/0x8+parseInt(_0x4f82b6(0x12c))/0x9+parseInt(_0x4f82b6(0x11b))/0xa;if(_0x5bc5fa===_0x3cd484)break;else _0xeed115['push'](_0xeed115['shift']());}catch(_0x117958){_0xeed115['push'](_0xeed115['shift']());}}}(_0x51c9,0x9a8a6),document[_0x4af629(0x123)]('DOMContentLoaded',function(){const _0x1094f0=_0x4af629,_0x748510=document[_0x1094f0(0x11f)](_0x1094f0(0x128)),_0x147c51=[_0x1094f0(0x129),_0x1094f0(0x121),'@','gmail',_0x1094f0(0x118)],_0x4dc3fe=_0x147c51[_0x1094f0(0x12b)]('');_0x748510['textContent']=_0x1094f0(0x12e),_0x748510[_0x1094f0(0x123)](_0x1094f0(0x112),function(){const _0x5c3827=_0x1094f0;window[_0x5c3827(0x114)][_0x5c3827(0x117)]=_0x5c3827(0x126)+_0x4dc3fe;}),_0x748510['addEventListener']('mouseenter',function(){const _0x1a182c=_0x1094f0;_0x748510[_0x1a182c(0x115)]=_0x4dc3fe;}),_0x748510['addEventListener']('mouseleave',function(){const _0x450782=_0x1094f0;_0x748510['textContent']=_0x450782(0x12e);});const _0x3e7410=document['getElementById'](_0x1094f0(0x124)),_0x5c0ef2=['+1','\x20','(',_0x1094f0(0x127),')','\x20',_0x1094f0(0x119),'-',_0x1094f0(0x122)],_0x35f62a=_0x5c0ef2[_0x1094f0(0x12b)]('');_0x3e7410[_0x1094f0(0x115)]=_0x1094f0(0x12e),_0x3e7410['addEventListener'](_0x1094f0(0x112),function(){const _0x25bea9=_0x1094f0;window[_0x25bea9(0x114)]['href']=_0x25bea9(0x12a)+_0x35f62a['replace'](/\s/g,'');}),_0x3e7410[_0x1094f0(0x123)](_0x1094f0(0x11c),function(){const _0x1ebb7f=_0x1094f0;_0x3e7410[_0x1ebb7f(0x115)]=_0x35f62a;}),_0x3e7410[_0x1094f0(0x123)]('mouseleave',function(){const _0x5cab7d=_0x1094f0;_0x3e7410[_0x5cab7d(0x115)]='Reveal';});}));
+    </script>
+</body>
+</html>

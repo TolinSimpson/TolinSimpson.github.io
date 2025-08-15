@@ -1,14 +1,19 @@
-Tolin Simpson's portfolio website hosted by Github Pages.
+# Tolin Simpson - Resume
 
+A simple, minimal one-page resume website built with clean HTML and CSS.
 
-Jekyll theme (fork): 
-https://github.com/Kitbashery/just-the-docs
+## Features
 
-Jekyll theme (docs):
-https://just-the-docs.github.io/just-the-docs/
+- Clean, professional design
+- Responsive layout for mobile and desktop
+- Minimal dependencies (no frameworks or themes)
+- Fast loading and accessible
 
-[Github Markdown Syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) | [Theme Markdown Examples](https://github.com/Kitbashery/just-the-docs/blob/main/docs/index-test.md)
+## Structure
 
+- `index.html` - Main resume page
+- `assets/` - Images and other assets (kept from original site)
 
-# 
-Copyright &copy; 2022 Tolin Simpson. All Rights Reserved.
+## Usage
+
+Simply open `index.html` in any web browser to view the resume. The site is designed to work without any build process or dependencies.

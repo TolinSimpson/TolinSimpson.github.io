@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /
+Disallow: /assets/
+Disallow: /index.html
+
+# Prevent all web crawlers from indexing this site
+# This is a personal resume that should not be indexed by search engines
