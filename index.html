@@ -58,12 +58,26 @@
             display: flex;
             gap: 20px;
             flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            flex-wrap: wrap;
+        }
+        
+        .contact-label {
+            font-weight: 500;
+            color: #555;
         }
         
         .github-link a, .email-link {
             color: #2980b9;
             text-decoration: none;
             font-weight: 500;
+            word-break: break-all;
         }
         
         .github-link a:hover {
@@ -78,6 +92,7 @@
             border-radius: 3px;
             transition: all 0.3s ease;
             font-size: 0.8em;
+            word-break: break-all;
         }
         
         .email-protected:hover {
@@ -94,6 +109,7 @@
             border-radius: 3px;
             transition: all 0.3s ease;
             font-size: 0.8em;
+            word-break: break-all;
         }
         
         .phone-protected:hover {
@@ -140,6 +156,8 @@
             justify-content: space-between;
             align-items: baseline;
             margin-bottom: 8px;
+            flex-wrap: wrap;
+            gap: 8px;
         }
         
         .job-title {
@@ -151,11 +169,13 @@
         .job-company {
             color: #2980b9;
             font-weight: 500;
+            word-break: break-word;
         }
         
         .job-date {
             color: #7f8c8d;
             font-size: 0.9em;
+            white-space: nowrap;
         }
         
         .job-description {
@@ -167,7 +187,8 @@
         }
         
         .job-description li {
-            margin-bottom: 4px;
+            margin-bottom: 8px;
+            line-height: 1.5;
         }
         
         .skills {
@@ -233,12 +254,35 @@
             
             .contact-links {
                 justify-content: center;
+                gap: 15px;
+            }
+            
+            .contact-item {
+                justify-content: center;
+                width: 100%;
             }
             
             .job-header, .education-header {
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 5px;
+            }
+            
+            .job-company, .education-school {
+                font-size: 0.95em;
+            }
+            
+            .job-description {
+                margin-left: 10px;
+            }
+            
+            .skills {
+                gap: 6px;
+            }
+            
+            .skill {
+                font-size: 0.8em;
+                padding: 5px 10px;
             }
         }
     </style>
@@ -253,14 +297,17 @@
                     <div class="title">Senior Unity Tools Engineer</div>
                     <div class="contact">United States | English (Native)</div>
                     <div class="contact-links">
-                        <div class="github-link">
-                            <a href="https://github.com/TolinSimpson" target="_blank">GitHub: @TolinSimpson</a>
+                        <div class="contact-item github-link">
+                            <span class="contact-label">GitHub:</span>
+                            <a href="https://github.com/TolinSimpson" target="_blank">@TolinSimpson</a>
                         </div>
-                        <div class="email-link">
-                            Email: <span id="email" class="email-protected"></span>
+                        <div class="contact-item email-link">
+                            <span class="contact-label">Email:</span>
+                            <span id="email" class="email-protected"></span>
                         </div>
-                        <div class="phone-link">
-                            Phone: <span id="phone" class="phone-protected"></span>
+                        <div class="contact-item phone-link">
+                            <span class="contact-label">Phone:</span>
+                            <span id="phone" class="phone-protected"></span>
                         </div>
                     </div>
                 </div>
@@ -280,10 +327,10 @@
                 </div>
                 <div class="job-description">
                     <ul>
-                        <li>Helped establish a 508c1a non-profit organization structure and compliance</li>
-                        <li>Traveled internationally providing permaculture consultation services</li>
-                        <li>Successfully fundraised attracting seven-figure donors</li>
-                        <li>Built and managed website and banking infrastructure for operations</li>
+                        <li>Helped establish a <strong>508c1a non-profit organization</strong> structure and compliance</li>
+                        <li>Traveled internationally providing <strong>permaculture consultation</strong> services</li>
+                        <li>Successfully fundraised attracting high-value donors</li>
+                        <li>Built and managed <strong>website and banking infrastructure</strong> for operations</li>
                     </ul>
                 </div>
             </div>
@@ -298,10 +345,10 @@
                 </div>
                 <div class="job-description">
                     <ul>
-                        <li>Developed real-time audio/visual streaming in Unity to projectors via websocket</li>
-                        <li>Created command line tools and API for enhanced development workflow</li>
-                        <li>Integrated bleeding-edge multi-media generative AI workflows into Unity applications</li>
-                        <li>Created build automation tools for for Windows, Mac, Linux</li>
+                        <li>Developed <strong>real-time audio/visual streaming</strong> in Unity to projectors via <strong>websocket</strong></li>
+                        <li>Created <strong>command line tools</strong> and <strong>API</strong> for enhanced development workflow</li>
+                        <li>Integrated <strong>bleeding-edge multi-media generative AI</strong> workflows into Unity applications</li>
+                        <li>Created <strong>build automation tools</strong> for Windows, Mac, Linux</li>
                     </ul>
                 </div>
             </div>
@@ -316,10 +363,10 @@
                 </div>
                 <div class="job-description">
                     <ul>
-                        <li>Developed Android app in Unity with advanced 3D character system</li>
-                        <li>Created sophisticated UI for Tabletop RPG companion app</li>
-                        <li>Mentored 3D artists and provided technical guidance for art pipeline</li>
-                        <li>Consulted for the games industry on Unity development best practices</li>
+                        <li>Developed <strong>Android app</strong> in Unity with <strong>advanced 3D character system</strong></li>
+                        <li>Created <strong>sophisticated UI</strong> for <strong>Tabletop RPG companion app</strong></li>
+                        <li><strong>Mentored 3D artists</strong> and provided <strong>technical guidance</strong> for art pipeline</li>
+                        <li>Consulted for the <strong>games industry</strong> on Unity development best practices</li>
                     </ul>
                 </div>
             </div>
@@ -334,10 +381,10 @@
                 </div>
                 <div class="job-description">
                     <ul>
-                        <li>Led digital marketing initiatives for sustainable agriculture clients</li>
-                        <li>Developed SEO strategies and brand identity design</li>
-                        <li>Created animation and video production content</li>
-                        <li>Managed client relationships and project delivery</li>
+                        <li>Led <strong>digital marketing initiatives</strong> for sustainable agriculture clients</li>
+                        <li>Developed <strong>SEO strategies</strong> and <strong>brand identity design</strong></li>
+                        <li>Created <strong>animation and video production</strong> content</li>
+                        <li>Managed <strong>client relationships</strong> and project delivery</li>
                     </ul>
                 </div>
             </div>
@@ -352,10 +399,10 @@
                 </div>
                 <div class="job-description">
                     <ul>
-                        <li>Developed open-source 3D tools and Unity assets with real-time asset composition</li>
-                        <li>Created advanced PBR texturing workflows and 3D printable art</li>
-                        <li>Built comprehensive gameplay components library and utility-based AI systems</li>
-                        <li>Published Unity plugins and managed technical product development</li>
+                        <li>Developed <strong>open-source 3D tools</strong> and Unity assets with <strong>real-time asset composition</strong></li>
+                        <li>Created <strong>advanced PBR texturing workflows</strong> and <strong>3D printable art</strong></li>
+                        <li>Built <strong>comprehensive gameplay components library</strong> and <strong>utility-based AI systems</strong></li>
+                        <li>Published <strong>Unity plugins</strong> and managed <strong>technical product development</strong></li>
                     </ul>
                 </div>
             </div>
@@ -370,10 +417,10 @@
                 </div>
                 <div class="job-description">
                     <ul>
-                        <li>Operated successful Unity Asset Store business</li>
-                        <li>Developed advanced fire simulation system and utility-based AI</li>
-                        <li>Built dynamic UI generation tools and visual scripting platform for Ethereum</li>
-                        <li>Created Android cryptocurrency exploration app</li>
+                        <li>Operated successful <strong>Unity Asset Store</strong> business</li>
+                        <li>Developed <strong>advanced fire simulation system</strong> and utility-based AI</li>
+                        <li>Built <strong>dynamic UI generation tools</strong> and <strong>visual scripting platform</strong> for Ethereum</li>
+                        <li>Created Android <strong>cryptocurrency</strong> exploration app</li>
                     </ul>
                 </div>
             </div>
@@ -388,10 +435,10 @@
                 </div>
                 <div class="job-description">
                     <ul>
-                        <li>Developed ambitious (unreleased) multiplayer FPS</li>
-                        <li>Implemented dynamic terrain systems and instanced base building</li>
-                        <li>Created real-time physics simulation systems</li>
-                        <li>Created media capsule for steam greenlight campaign</li>
+                        <li>Developed ambitious <strong>multiplayer FPS</strong> (unreleased)</li>
+                        <li>Implemented <strong>dynamic terrain systems</strong> and <strong>instanced base building</strong></li>
+                        <li>Created <strong>real-time physics simulation systems</strong></li>
+                        <li>Created <strong>media capsule</strong> for Steam Greenlight campaign</li>
                     </ul>
                 </div>
             </div>
@@ -405,14 +452,14 @@
                 </div>
                 <div class="job-date">2010, 2015, 2017</div>
             </div>
-            <div class="job-description">
-                <ul>
-                    <li>Halo reach beta participant</li>
-                    <li>Modding feedback alpha tester for 7 Days to Die</li>
-                    <li>Closed Technical tester for unreleased Gearbox game</li>
-                    <li>Offered detailed bug reports and gameplay feedback</li>
-                </ul>
-            </div>
+                            <div class="job-description">
+                    <ul>
+                        <li><strong>Halo Reach</strong> beta participant</li>
+                        <li><strong>Modding feedback alpha tester</strong> for 7 Days to Die</li>
+                        <li><strong>Closed Technical tester</strong> for unreleased Gearbox game</li>
+                        <li>Offered <strong>detailed bug reports</strong> and <strong>gameplay feedback</strong></li>
+                    </ul>
+                </div>
         </div>
 
         <div class="section">
@@ -428,10 +475,10 @@
                 </div>
                 <div class="job-description">
                     <ul>
-                        <li>Technology-focused curriculum: Computer Programming 1-2, AP Computer Programming</li>
-                        <li>Multimedia 1-2, Advanced Multimedia, Video Game Design</li>
-                        <li>Honor Roll Student, FBLA Leadership (Acting President),
-                            <br> Puget Sound Regional Champion in Computer Simulation & Game Programming</li>
+                        <li>Technology-focused curriculum: <strong>Computer Programming 1-2</strong>, <strong>AP Computer Programming</strong></li>
+                        <li><strong>Multimedia 1-2</strong>, <strong>Advanced Multimedia</strong>, <strong>Video Game Design</strong></li>
+                        <li><strong>Honor Roll Student</strong>, <strong>FBLA Leadership</strong> (Acting President),
+                            <br> <strong>Puget Sound Regional Champion</strong> in Computer Simulation & Game Programming</li>
                     </ul>
                 </div>
             </div>
